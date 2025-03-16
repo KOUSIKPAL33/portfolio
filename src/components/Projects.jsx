@@ -15,7 +15,7 @@ function Projects() {
                     </p>
                 </div>
                 <div className="w-full flex flex-col md:flex-row flex-wrap justify-center gap-4 p-6">
-                    {/* Card 1 */}
+
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500 ">
                         <h2 className="text-2xl font-bold text-white mb-2">InCampusFoods</h2>
                         <img
@@ -46,7 +46,6 @@ function Projects() {
                         </div>
                     </div>
 
-                    {/* Card 2 */}
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500">
                         <h2 className="text-2xl font-bold text-white mb-2">Waste2Charity</h2>
                         <img
@@ -75,7 +74,6 @@ function Projects() {
                         </div>
                     </div>
 
-                    {/* Card 3 */}
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500">
                         <h2 className="text-2xl font-bold text-white mb-2">SportCheck</h2>
                         <img
