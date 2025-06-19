@@ -2,6 +2,8 @@ import React from "react";
 import myphoto from "../assets/my_photo.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import './style.css';
+
 
 const Home = () => {
   return (
@@ -23,11 +25,20 @@ const Home = () => {
 
         </div>
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-4xl font-bold text-white">Hello It's Me </h2>
+          <h3 className="text-2xl sm:text-4xl font-bold text-white">Hello It's Me </h3>
 
           <h1 className="text-4xl sm:text-7xl text-white font-bold">Kousik Pal</h1>
 
-          <h2 className="text-white text-2xl sm:text-3xl font-bold">And I'm a <span className="text-blue-500">Full Stack Developer</span></h2>
+          <h2 className="text-white text-2xl sm:text-3xl font-bold">
+            And I'm a 
+            <span>
+              <span>Coder</span>
+              <span>Designer</span>
+              <span>Developer</span>
+              <span>Programmer</span>
+              <span>Frelincer</span>
+            </span>
+            </h2>         
 
           <p className="text-gray-500 py-4 max-w-md">
             I have 2 years of experience building websites and desgining software.

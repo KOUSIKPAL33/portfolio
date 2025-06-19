@@ -17,7 +17,7 @@ function Projects() {
                 <div className="w-full flex flex-col md:flex-row flex-wrap justify-center gap-4 p-6">
 
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500 ">
-                        <h2 className="text-2xl font-bold text-white mb-2">InCampusFoods</h2>
+                        <h3 className="text-2xl font-bold text-white mb-2">InCampusFoods</h3>
                         <img
                             src={incampusimg}
                             alt="InCampusFoods"
@@ -35,11 +35,11 @@ function Projects() {
                             <span className="text-purple-400"> MongoDB-Cloud</span>
                         </p>
                         <div className="flex flex-row gap-3">
-                            <a href="https://in-campus-frontend.vercel.app/" target="_blank" rel="noopener noreferrer"
+                            <a href="https://frontend-ecru-five-46.vercel.app//" target="_blank" rel="noopener noreferrer"
                                 className="px-4 py-2 text-white bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg shadow-md hover:scale-105 transition-all">
                                 Demo
                             </a>
-                            <a href="https://github.com/KOUSIKPAL33/InCampus" target="_blank" rel="noopener noreferrer"
+                            <a href="https://github.com/KOUSIKPAL33/IncampusFoods" target="_blank" rel="noopener noreferrer"
                                 className="px-4 py-2 text-white bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg shadow-md hover:scale-105 transition-all">
                                 Github
                             </a>
@@ -47,7 +47,7 @@ function Projects() {
                     </div>
 
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500">
-                        <h2 className="text-2xl font-bold text-white mb-2">Waste2Charity</h2>
+                        <h3 className="text-2xl font-bold text-white mb-2">Waste2Charity</h3>
                         <img
                             src={waste}
                             alt="Waste2Charity"
@@ -75,7 +75,7 @@ function Projects() {
                     </div>
 
                     <div className="w-full sm:w-[95%] md:w-[30%] lg:w-[28%] h-auto flex flex-col items-center justify-between p-4 bg-gray-900 shadow-lg rounded-lg border border-gray-500">
-                        <h2 className="text-2xl font-bold text-white mb-2">SportCheck</h2>
+                        <h3 className="text-2xl font-bold text-white mb-2">SportCheck</h3>
                         <img
                             src={sport}
                             alt="SportCheck"

@@ -1,0 +1,23 @@
+h2{
+    font-size: 2.5em;
+}
+h2>span{
+    position: relative;
+    display: inline-block;
+    color: chartreuse;
+    height: 1.25em;
+    vertical-align: bottom;
+    overflow: hidden;
+    margin-left: 15px;
+}
+h2>span>span{
+    display: block;
+    animation: animateword 5s infinite ease;
+}
+@keyframes animateword {
+    0% {transform: translateY(0%);}
+    25% {transform: translateY(-100%);}
+    50% {transform: translateY(-200%);}
+    75% {transform: translateY(-300%);}
+    100% {transform: translateY(-400%);}
+}
