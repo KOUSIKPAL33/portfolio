@@ -36,7 +36,6 @@ const Home = () => {
               <span>Designer</span>
               <span>Developer</span>
               <span>Programmer</span>
-              <span>Frelincer</span>
             </span>
             </h2>         
 
